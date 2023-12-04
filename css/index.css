@@ -64,6 +64,11 @@
     border-radius: 10px;    
     padding: 15px 30px;
     background: rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+#all_entries p{
+    box-shadow: 0px 0px 2px 2px var(--primary-complement);
 }
 
 #new_entry p{

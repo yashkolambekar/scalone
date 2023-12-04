@@ -1,0 +1,18 @@
+#form_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#weight_input{
+    font-size: 100px;
+    width: 300px;
+    text-align: center;
+    background: none;
+    border: none;
+    text-decoration: underline solid 2px;
+    text-underline-offset: 10px;
+    color: var(--primary-complement);
+    outline: none;
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SCAL</title>
+    <title>Scalone</title>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/index.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -31,7 +31,7 @@
 
     <section class="sec_2" id="entries_wrapper">
         
-        <div class="ew_div"><p>All Entries</p></div>
+        <div class="ew_div" id="all_entries"><p>All Entries</p></div>
         <div class="ew_div" id="new_entry"><p>New Entry</p></div>
     </section>
 
