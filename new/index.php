@@ -48,7 +48,7 @@
                     <p>No Junk</p>
                 </label>
                 <div class="child_checkbox_wrapper">
-                    <input type="text" name="no_junk_input" id="" placeholder="Chapati, Soyabean, Dahi" maxlength="255">
+                    <input type="text" name="no_junk_input" class="child_input" id="" placeholder="Chapati, Soyabean, Dahi" maxlength="255">
                 </div>
             </div>
             <div class="multi_option_wrapper">
@@ -57,7 +57,7 @@
                     <p>Period</p>
                 </label>
                 <div class="child_checkbox_wrapper">
-                    <input type="text" name="period_input" id="" placeholder="No severe cramps" maxlength="255">
+                    <input type="text" name="period_input" class="child_input" id="" placeholder="No severe cramps" maxlength="255">
                 </div>
             </div>
             <br>

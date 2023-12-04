@@ -12,6 +12,10 @@ for(let i = 0; i < multi_option_wrapper.length; i++){
             for(let j = 0; j < inners.length; j++){
                 inners[j].checked = false;
             }
+            const child_input = child_checkboxs.getElementsByClassName("child_input");
+            for(let j = 0; j < child_input.length; j++){
+                child_input[j].value = "";
+            }
         }
     })
 }
