@@ -1,0 +1,3 @@
+write streak calculation logic
+
+mobile friendly ui

@@ -16,3 +16,70 @@
     color: var(--primary-complement);
     outline: none;
 }
+
+.multi_option_wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.child_checkbox_wrapper{
+    display: flex;
+    flex-direction: row;
+    max-width: 0px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.checkbox{
+    display: none;
+}
+
+.main_checkbox{
+    min-width: 200px;
+}
+
+
+.main_checkbox, .child_checkbox{
+    cursor: pointer;
+    border: 2px solid var(--primary-complement);
+    padding: 10px 20px;
+    border-radius: 14px;
+    margin: 0px 10px;
+    transition: 0.3s ease;
+}
+
+.checkbox:checked + .main_checkbox,
+.checkbox:checked + .child_checkbox{
+    background: var(--primary-complement);
+    color: black;
+}
+
+.child_checkbox_wrapper input[type="text"]{
+    font-size: 25px;
+    background: none;
+    border: none;
+    text-decoration: underline solid 2px;
+    text-underline-offset: 4px;
+    color: var(--primary-complement);
+    outline: none;
+}
+
+button{
+    cursor: pointer;
+    font-size: 25px;
+    width: 300px;
+    background: var(--primary-complement);
+    border: 2px solid var(--primary-complement);
+    padding: 10px 20px;
+    border-radius: 14px;
+    margin: 0px 10px;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    width: 400px;
+    transition: 0.3s ease;
+}

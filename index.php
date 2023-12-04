@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/index.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 <body>
     <?php include "components/nav/nav.php" ?>
@@ -31,8 +32,8 @@
 
     <section class="sec_2" id="entries_wrapper">
         
-        <div class="ew_div" id="all_entries"><p>All Entries</p></div>
-        <div class="ew_div" id="new_entry"><p>New Entry</p></div>
+        <div class="ew_div" id="all_entries"><a href="entries">All Entries</a></div>
+        <div class="ew_div" id="new_entry"><a href="new">New Entry</a></div>
     </section>
 
 </body>
