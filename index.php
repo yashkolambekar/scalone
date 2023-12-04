@@ -23,16 +23,16 @@
     </section>
 
     <section class="sec_2" id="quick_stats_wrapper">
-        <div class="quick_stat"><p>Gym Streak: 12🔥</p></div>
-        <div class="quick_stat"><p>Weightloss streak: 45📉</p></div>
-        <div class="quick_stat"><p>No Junk Streak: 33💖</p></div>
+        <div class="quick_stat"><p>Gym Streak: <span id="gym_streak"></span>🔥</p></div>
+        <div class="quick_stat"><p>Weightloss streak: <span id="weightloss_streak"></span>📉</p></div>
+        <div class="quick_stat"><p>No Junk Streak: <span id="no_junk_streak"></span>💖</p></div>
     </section>
 
     <br>
 
     <section class="sec_2" id="entries_wrapper">
         
-        <div class="ew_div" id="all_entries"><a href="entries">All Entries</a></div>
+        <div class="ew_div" id="all_entries"><a target="_blank" href="entries">All Entries</a></div>
         <div class="ew_div" id="new_entry"><a href="new">New Entry</a></div>
     </section>
 

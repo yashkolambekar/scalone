@@ -33,10 +33,20 @@
         $result = mysqli_query($db, $query);
         if($result){
             echo 'done';
+            header('Location: /');
+            
+        }else{
+            echo "error";
         }
     }else{
         $query = "INSERT INTO `entries` (weight, gym, gym_option, no_junk, no_junk_input, period, period_input) VALUES ($weight, $main_gym, '$gym_option', $no_junk, '$no_junk_input', $period, '$period_input')";
         $result = mysqli_query($db, $query);
+        if($result){
+            echo "done";
+            header('Location: /');
+        }else{
+            echo "error";
+        }
     }
 
 

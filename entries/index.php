@@ -67,7 +67,7 @@
             echo "
             </div>
             <div>
-                <p>". $row["gym_option"] ."</p>
+                <p>". ucwords($row["gym_option"]) ."</p>
             </div>
             <div>
                 <p>";
